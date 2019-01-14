@@ -14,18 +14,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <com.google.android.gms.maps.MapView
+        <include
+                layout="@layout/activity_maps"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" android:id="@+id/mapView"/>
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="GOOGLE MAPS"
-                android:textAlignment="center"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="150dp"
-                app:autoSizeTextType="uniform"/>
+                android:layout_height="match_parent"/>
     </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

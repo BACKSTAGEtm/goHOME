@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DB>
+    <markers>
+            <type>type1</type>
+            <posX>100</posX>
+            <posY>100</posY>
+            <priority>High</priority>
+            <info>First Marker</info>
+    </markers>
+    <markers>
+            <type>type1</type>
+            <posX>200</posX>
+            <posY>300</posY>
+            <priority>High</priority>
+            <info>Second Marker</info>
+    </markers>
+</DB>
